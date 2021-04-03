@@ -1,0 +1,47 @@
+body{
+  color:#301b3f;
+  background-color: #151515;
+  margin:0;
+  padding: 0;
+font-family: 'Press Start 2P', cursive;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.outer-container{
+  margin-top: 0.5rem;
+
+}
+.MuiButton-label{
+  font-family: 'Press Start 2P', cursive;
+}
+.calc-btn{
+  font-family: 'Press Start 2P', cursive;
+}
+h1{
+  text-align: center;
+  margin-bottom: 3rem;
+  color: whitesmoke;
+}
+.input-container{
+  text-align: center;
+  margin-left: auto;
+}
+input{
+  width:35%;
+  height:2rem;
+  text-align: right;
+  background-color: #151515;
+  border :2px  #301b3f solid ;
+  color: #8B008B;
+  font-family: 'Press Start 2P', cursive;
+}
+input:focus{
+  outline: none;
+    border :2px  #301b3f solid ;
+
+}
+.equal-to{
+  border-color: #8B008B;
+}
